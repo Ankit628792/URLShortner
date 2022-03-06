@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js",
-    "build": "npm install && node index.js"
+    "build": "npm install && node index.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm run build"
   },
   "author": "ankit",
   "license": "MIT",
