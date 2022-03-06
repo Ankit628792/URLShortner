@@ -1,5 +1,7 @@
 const express = require('express'); // Loading Express module
 const connectDB = require('./config/db');
+require('dotenv').config()
+
 
 // Initialize Express
 const app = express();
@@ -11,7 +13,7 @@ connectDB();
 app.use(express.json());// Connect Database
 
 // Add Express Port
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 app.set('view engine', 'ejs');
 app.use(express.json());

@@ -8,7 +8,6 @@ router.get('/:code', async (req, res) => {
   if (!req.params.code) {
     res.render('index')
   }
-  console.log(req.params.code)
   try {
     const url = await URL.findOne({ urlCode: req.params.code });
 

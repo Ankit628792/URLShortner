@@ -9,9 +9,9 @@
    ```sh
    npm install
    ``` 
-4. Enter your Connection key in default.json in config folder
+4. Enter your Connection key in `.env` in root folder
    ```
-   mongouri = 'ENTER YOUR DATABASE CONNECTION KEY';
+   MONGODB_URI = 'ENTER YOUR DATABASE CONNECTION KEY';
    ```
 
 ### Installation via Zip Folder
@@ -22,7 +22,7 @@
    ```sh
    npm install
    ``` 
-4. Enter your Connection key in default.json in config folder
+4. Enter your Connection key in `.env` in root folder
    ```
-    mongouri = 'ENTER YOUR DATABASE CONNECTION KEY';
+    MONGODB_URI = 'ENTER YOUR DATABASE CONNECTION KEY';
    ```
