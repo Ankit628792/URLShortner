@@ -1,0 +1,24 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "At NewsBytes, the marketing department often finds themselves using long URLs with UTM tracking. These URLs often travel in emails, getting copied over sheets and docs, thereby are at risk of getting ruined by formatters. The objective is to design and implement a URL hashing system that would allow us to overcome these problems primarily. Things to keep in mind: URL length can't be restricted. Query parameters can’t be ignored. Click tracking should be there but hashed URLs can be made privacy-aware. May be used in a secure manner as the generated URL might be single (limited) use only. You can choose to make the application with UI or only API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "build": "npm install && node index.js"
+  },
+  "author": "ankit",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.4",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
